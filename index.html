@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
-    <script src="main.js"></script>
+    <script src="main.js" defer></script>
 </head>
 
 <body>
@@ -15,6 +15,12 @@
 
     <img src="images/pic2.jpeg" />
     <img src="images/pic3.jpeg" />
+
+    <label>price:</label>
+    <input id="priceBox" type="number" />
+    <button onclick="display()">Calculate VAT</button>
+    <p id="result"></p>
+
 
     <p>all rights reserved ©</p>
 </body>
